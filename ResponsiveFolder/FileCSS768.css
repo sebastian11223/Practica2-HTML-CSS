@@ -1,0 +1,330 @@
+body {
+    margin: 0%;
+}
+    @media only screen and (max-width: 768px) {
+        body {
+            margin: 0%;
+        }
+
+    /*@MEDIA*/
+    /*primera foto con párrafo principal*/
+    .PrimeraFotoYParrafo {
+        display: grid;
+        grid-row: row;
+    }
+       /*@MEDIA*/
+       .imagenNosaltres{
+    
+        width: 100%;
+        height: 100%;
+        border-radius: 5%;
+        }
+        /*//////////////////////////////////////*/
+        
+        /* @media */
+        main {
+            padding: 2%;
+            margin-left: 25%;
+            margin-right: 25%;
+        }
+  }
+  
+    
+    
+    
+    
+    
+    header {   
+       
+        background-color:  black;
+        display: flex;
+        position: sticky;
+        top: 0px;
+        justify-content: right;
+        padding: 1.4%;
+        /*aplicamos z-index para jugar con las capas
+        para así evitar la superposición del texto de
+        la imagen principal al header sticky*/
+        z-index: 1;
+        
+    }
+    
+    button:hover {
+    
+        transition: all 300ms;
+        transform: scale(1.10);
+    
+    }
+    
+    
+    
+    
+    
+    
+    
+    /*parte de la cabecera con la foto*/
+    .DIVCABECERA{
+     display: flex; 
+     align-items: center; 
+     
+    
+    
+    }
+    
+    .headerIMG{
+       
+    max-height: 20%;
+    max-width: 100%;
+    }  
+    
+    .RestaurantElsCobertsTEXT{
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        margin-left: 10%;
+        color: white;
+        position: absolute;
+        
+      
+    }
+    /*//////////////////////////////////*/
+    
+    
+    
+    .a {
+    background-color: black;
+    color: white;
+    }
+    
+    .div {
+        height: 4%;
+    }
+    /* @media */
+    main {
+    padding: 2%;
+    margin-left: 25%;
+    margin-right: 25%;
+    }
+    .sobrenosaltres {
+    
+    }
+    
+    /*@MEDIA*/
+    /*primera foto con párrafo principal*/
+    .PrimeraFotoYParrafo {
+        display: flex;
+       
+        justify-content:space-around;
+        gap: 1rem;
+        
+    }
+    
+     /*@MEDIA*/
+    .imagenNosaltres{
+    
+    width: 30%;
+    height: 30%;
+    border-radius: 5%;
+    }
+    /*//////////////////////////////////////*/
+    
+    /*primera foto con párrafo principal*/
+    .SegundaFotoYParrafo {
+        display:flex;
+        /*quitar margins*/
+        justify-content:space-around;
+        gap: 1rem;
+        
+        
+    }
+    
+    .imagenNosaltres2{
+    
+    width: 30%;
+    height: 30%;
+    border-radius: 5%;
+    }
+    /*//////////////////////////////////////*/
+    
+    /*SECCION MENUS*/
+    .MENUGRANDE {
+        color: white;
+        display: flex;
+        justify-content: center;
+        background-color: #12203E;
+        padding: 2%;
+        border-radius: 5px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 700;
+    }
+    
+    .DivParaMenu1y2 {
+    
+        display: flex;
+        gap: 1rem;
+        margin-top: 15px;
+       
+        
+    }
+    
+    /*DIV PARA ORDENDAR LAS FOTOS DE LOS MENUS*/
+    .DivParaOrdenar {
+    
+        display: flex;
+        flex-direction: column;
+        
+    
+    }
+    
+    
+    .menus1y2 {
+        display: flex;
+        border: 2px solid;
+        border-color: #C4D2D9;
+        align-items: center;
+        justify-content: center;
+        padding: 1%;
+        width: 50%;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 700;
+    
+    }
+    
+    /*DIV PARA FOTOS DE LOS MENUS*/
+    .divFotosMenus {
+    
+        display: grid;
+        grid-template-columns: auto auto;
+        
+    
+    }
+    /*tamaño fotos*/
+    .divFotosMenus img {
+     
+        border-radius: 1%;
+        border: 5px double;
+        border-color: rgb(251, 247, 247);
+        height: 100%; 
+        width: 95%;
+       
+        
+        
+    }
+    
+    .divFotosMenus img:hover {
+        transition: all 300ms;
+        transform: scale(1.10);
+        opacity: 0.8;
+        
+        
+    }
+    
+    
+    /*margenes imagenes de la derecha*/
+    .fotoderecha {
+    
+        margin-left: 3%;
+    
+    }
+    
+    /*//////////////////////////////////////*/
+    /*GALERIA DE FOTOS*/
+    .DivGaleria {
+    
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        gap: 1rem;
+    
+    }
+    
+    .DivGaleria img {
+        border-radius: 1%;
+        border: 5px double;
+        border-color: rgb(251, 247, 247);
+        width: 100%;
+        height: 100%;
+        
+    }
+    .DivGaleria img:nth-child(4n) {
+        filter: brightness(.33);
+    }
+    
+    .DivGaleria img:nth-child(4n+1) {
+        filter: brightness(.33);
+    }
+    
+    .DivGaleria img:hover {
+    
+        transition: all 300ms;
+        transform: scale(1.1);
+        filter: drop-shadow(0 0 0.5rem rgb(71, 181, 240));
+    }
+    /*//////////////////////////////////////*/
+    /*SECCION footer*/
+    footer {
+        border: 2px solid;
+        background-color: black;
+        
+        display: grid;
+        grid-template-columns: 10rem  auto auto;
+        padding-left: 3%;
+        padding-right: 1%;
+    
+      
+        
+    }
+    
+    /*div del primer pack del footer sobre gmail*/
+    .divFotoSobre {
+    
+    display: flex;
+    align-items: center;
+    
+    
+    
+    }
+    
+    .FotoTelefonoYsobre {
+       /* padding-left: 5%;
+       padding-right: 5%; */
+    }
+    
+    /*div del segundo pack de telefono footer*/
+    .divFotoTelefono{
+    
+        display: flex;
+        align-items: center;
+        margin-left: 5%;
+    }
+    
+    
+    .correo {
+        color: white;
+        padding-left: 1%;
+        padding-right: 1%;
+    }
+    
+    .numero {
+        color: white;
+        padding-left: 1%;
+        padding-right: 1%;
+    }
+    
+    .divTextoFooter {
+        color: white;
+       
+        text-align: right;
+    }
+    /*//////////////////////////////////////*/
+    
+    h2 {
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 700;
+        margin-top: 10%;
+    }
+    
+    h1 {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    p {
+        font-family: Arial, Helvetica, sans-serif;
+    }
