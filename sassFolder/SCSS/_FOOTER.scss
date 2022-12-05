@@ -1,0 +1,55 @@
+/*FOOTER*/
+/*SECCION footer*/
+footer {
+    border: 2px solid;
+    background-color: $colorNegro;
+
+    display: $grid;
+    grid-template-columns: 10rem auto auto;
+    padding-left: 3%;
+    padding-right: 1%;
+}
+
+/*div del primer pack del footer sobre gmail*/
+.divFotoSobre {
+
+    display: $flex;
+    align-items: center;
+
+}
+
+.correo {
+    color: $colorBlanco;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+
+.FotoTelefonoYsobre {
+    /* padding-left: 5%;
+    padding-right: 5%; */
+}
+
+/*div del segundo pack de telefono footer*/
+.divFotoTelefono {
+
+    display: $flex;
+    align-items: center;
+    margin-left: 5%;
+}
+
+.numero {
+    color: $colorBlanco;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+
+
+.divTextoFooter {
+    color: $colorBlanco;
+
+    text-align: right;
+}
+
+/*//////////////////////////////////////*/
